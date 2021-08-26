@@ -26,6 +26,5 @@ git restore --staged <file>...
 ~~~
 git config user.name
 git config user.email
-
 ~~~
 
