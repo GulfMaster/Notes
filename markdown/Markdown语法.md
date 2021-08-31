@@ -213,7 +213,7 @@ public static void main(String[] args) {
 
 ## 8.1 本地图片
 
-![](md语法\简单-彩色-星球.png)
+![](..\img\md语法\简单-彩色-星球.png)
 
 
 
