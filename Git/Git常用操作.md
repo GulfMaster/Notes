@@ -17,9 +17,36 @@ git commit -m "commit message"
 git push -u origin master
 ~~~
 
+# 修改远程分支名称
 
+~~~
+首先 git branch -m 旧分支名 新分支名
 
+其次 git push --delete origin 旧分支名
 
+将新分支名推上去 git push origin 新分支名
+
+将新本地分支和远程相连 git branch --set-upsteam-to origin/新分支名
+~~~
+
+# 在github网页修改修改分支名称后
+
+~~~
+git branch -m main master
+git fetch origin
+git branch -u origin/master master
+git remote set-head origin -a
+~~~
+
+# 删除分支
+
+~~~
+删除分支
+git branch -d 分支名称
+
+删除远程分支
+git push origin --delete 分支名称
+~~~
 
 
 
