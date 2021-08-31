@@ -1,3 +1,28 @@
+# 从github拉取代码之后
+
+~~~
+创建本地分支
+git branch -b master
+
+设置本地分支追踪远程分支
+git push --set-upstream origin master
+
+把文件放到暂存区
+git add .
+
+提交变更到暂存区
+git commit -m "commit message"
+
+推送代码
+git push -u origin master
+~~~
+
+
+
+
+
+
+
 # 切换分支
 
 ~~~
