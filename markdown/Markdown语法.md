@@ -6,7 +6,7 @@
 
 #  Typora常用快捷键
 
-![Typora常用快捷键](md语法\快捷键-脑图.png)
+![Typora常用快捷键](..\img\md语法\快捷键-脑图.png)
 
 emoji网址
 

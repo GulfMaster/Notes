@@ -80,3 +80,8 @@ git config user.name
 git config user.email
 ~~~
 
+# 解除ssl验证后，再次git即可
+
+~~~
+git config --global http.sslVerify "false"
+~~~
