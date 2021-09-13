@@ -1,6 +1,6 @@
 # 问题：Windows环境下GitBash中文乱码
 
-之前很少用GitBash，一直用的Idea进行git操作。最近开始写GitHub写东西，GitBash一直是乱码的，觉得很不舒服，乱码确实影响我们对操作的认知。遂决定解决此问题。
+之前很少用GitBash，一直使用Idea进行git操作。最近开始在GitHub上写东西，GitBash一直是乱码的，觉得很不舒服。乱码是会影响我们的操作的，秉着”功在当代，利在千秋“的想法，遂决定解决此问题。
 
 网上查找资料，经过实践，总结以下解决方法。
 
@@ -9,8 +9,13 @@
 ## Setp1
 
 运行Git Bash窗口，在窗口中右键。选择Options，点击左侧的Text，在右侧找到Locale和Character set
-　　Locale : 选择 zh_CN 
-　　Character set:选择 UTF-8 
+
+~~~
+Locale 选择 zh_CN 
+Character set 选择 UTF-8 　
+~~~
+
+
 
 ## Step2
 
