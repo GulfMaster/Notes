@@ -54,7 +54,7 @@ select from_unixtime(1566230400,'%Y-%m-%d');
 
 ### 附表
 
-<img src="img\MySQL\时间字符串.png" width="500" height="900">
+<img src=".\img\MySQL\时间字符串.png" width="500" height="900">
 
 
 
