@@ -1,3 +1,20 @@
+## 查看数据库中各个表的容量
+
+~~~sql
+SELECT
+	table_name,
+	table_rows 
+FROM
+	information_schema.TABLES 
+WHERE
+	TABLE_SCHEMA = '数据库名称' 
+ORDER BY
+	table_rows DESC;
+~~~
+
+
+
+
 
 ## 常用函数
 
